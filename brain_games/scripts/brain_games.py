@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
-from ..cli import ask_name
+from ..cli import say_hello
 
 
 def main():
-    print("Welcome to the Brain Games!")
-    ask_name()
+    say_hello()
 
 
 if __name__ == '__main__':
