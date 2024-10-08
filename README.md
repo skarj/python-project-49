@@ -2,4 +2,4 @@
 
 # Brain Games
 ## Brain Even
-[![asciicast](https://asciinema.org/a/Y1hWcYVGug0hxv810FsVOr4nv.svg)](https://asciinema.org/a/Y1hWcYVGug0hxv810FsVOr4nv)
+[![asciicast](https://asciinema.org/a/Znv16wwFfWrYKcLlxOCrge1KY.svg)](https://asciinema.org/a/Znv16wwFfWrYKcLlxOCrge1KY)
