@@ -2,16 +2,7 @@
 
 from ..engine.game import game
 from random import randint
-
-
-def gcd(a, b):
-    """
-    Find GCD of two numbers using Eucliden algorithm
-    """
-    while b:
-        a, b = b, a % b
-
-    return a
+from math import gcd
 
 
 def get_question():
@@ -30,8 +21,8 @@ def get_question():
 
 
 def main():
-    ques_message = "Find the greatest common divisor of given numbers."
-    game(get_question, ques_message)
+    task = "Find the greatest common divisor of given numbers."
+    game(get_question, task)
 
 
 if __name__ == '__main__':

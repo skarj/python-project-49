@@ -16,8 +16,8 @@ def get_question():
 
 
 def main():
-    ques_message = 'Answer "yes" if the number is even, otherwise answer "no".'
-    game(get_question, ques_message)
+    task = 'Answer "yes" if the number is even, otherwise answer "no".'
+    game(get_question, task)
 
 
 if __name__ == '__main__':
