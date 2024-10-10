@@ -8,4 +8,4 @@
 [![asciicast](https://asciinema.org/a/G8Drzh1PcK29lCqrG6kXiwfNP.svg)](https://asciinema.org/a/G8Drzh1PcK29lCqrG6kXiwfNP)
 
 ## The Greatest Common Divisor
-[![asciicast](https://asciinema.org/a/G8Drzh1PcK29lCqrG6kXiwfNP.svg)](https://asciinema.org/a/G8Drzh1PcK29lCqrG6kXiwfNP)
+[![asciicast](https://asciinema.org/a/1DTBJo9ICKCI5MCLHiLBww4oo.svg)](https://asciinema.org/a/1DTBJo9ICKCI5MCLHiLBww4oo)
