@@ -3,5 +3,9 @@
 from ..games.prime import play
 
 
-if __name__ == '__main__':
+def main():
     play()
+
+
+if __name__ == '__main__':
+    main()
