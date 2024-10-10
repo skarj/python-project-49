@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from ..engine.game import game
 from random import randint
 
@@ -28,10 +26,6 @@ def get_question():
     return number, answer
 
 
-def main():
+def play():
     title = 'Answer "yes" if given number is prime. Otherwise answer "no".'
     game(get_question, title)
-
-
-if __name__ == '__main__':
-    main()

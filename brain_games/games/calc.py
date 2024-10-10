@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from ..engine.game import game
 from random import randint, choice
 
@@ -20,10 +18,6 @@ def get_question():
     return question, answer
 
 
-def main():
+def play():
     title = 'What is the result of the expression?'
     game(get_question, title)
-
-
-if __name__ == '__main__':
-    main()

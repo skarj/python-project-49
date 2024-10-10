@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from ..engine.game import game
 from random import randint
 
@@ -15,10 +13,6 @@ def get_question():
     return number, answer
 
 
-def main():
+def play():
     title = 'Answer "yes" if the number is even, otherwise answer "no".'
     game(get_question, title)
-
-
-if __name__ == '__main__':
-    main()
