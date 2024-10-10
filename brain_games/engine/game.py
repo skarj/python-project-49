@@ -36,7 +36,7 @@ def game(question, title):
         answer = ask_question(qes_text)
         if not is_answer_correct(answer, qes_result):
             print(f"Let's try again, {name}!")
-            exit(1)
+            exit(0)
         attempt += 1
 
     print(f"Congratulations, {name}!")
