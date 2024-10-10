@@ -12,3 +12,6 @@
 
 ## Progression
 [![asciicast](https://asciinema.org/a/tsBWKQsGgOI2rxKZjcd7wZUx6.svg)](https://asciinema.org/a/tsBWKQsGgOI2rxKZjcd7wZUx6)
+
+## Is Number Prime?
+[![asciicast](https://asciinema.org/a/MsT0v41v9fo1CQoGI90bhOCJM.svg)](https://asciinema.org/a/MsT0v41v9fo1CQoGI90bhOCJM)
