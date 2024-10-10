@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Math games to train your brain"
 authors = ["skarj <skaarj.sergey@gmail.com>"]
 classifiers = ["Topic :: Games/Entertainment"]
+repository = "https://github.com/skarj/python-project-49"
 readme = "README.md"
 packages = [
   { include = "brain_games" },
