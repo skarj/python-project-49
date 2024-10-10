@@ -21,8 +21,8 @@ def get_question():
 
 
 def main():
-    task = 'What is the result of the expression?'
-    game(get_question, task)
+    title = 'What is the result of the expression?'
+    game(get_question, title)
 
 
 if __name__ == '__main__':

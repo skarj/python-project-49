@@ -11,9 +11,9 @@ def is_answer_correct(answer, correct):
         return False
 
 
-def game(question, message):
+def game(question, title):
     name = greeting()
-    print(message)
+    print(title)
 
     attempt = 0
     while attempt < 3:

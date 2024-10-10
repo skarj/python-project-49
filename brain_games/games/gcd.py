@@ -21,8 +21,8 @@ def get_question():
 
 
 def main():
-    task = "Find the greatest common divisor of given numbers."
-    game(get_question, task)
+    title = "Find the greatest common divisor of given numbers."
+    game(get_question, title)
 
 
 if __name__ == '__main__':
