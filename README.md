@@ -9,3 +9,6 @@
 
 ## The Greatest Common Divisor
 [![asciicast](https://asciinema.org/a/1DTBJo9ICKCI5MCLHiLBww4oo.svg)](https://asciinema.org/a/1DTBJo9ICKCI5MCLHiLBww4oo)
+
+## Progression
+[![asciicast](https://asciinema.org/a/tsBWKQsGgOI2rxKZjcd7wZUx6.svg)](https://asciinema.org/a/tsBWKQsGgOI2rxKZjcd7wZUx6)
