@@ -29,3 +29,26 @@ Finding missing numbers in a sequence of numbers
 Determining a prime number
 
 [![asciicast](https://asciinema.org/a/MsT0v41v9fo1CQoGI90bhOCJM.svg)](https://asciinema.org/a/MsT0v41v9fo1CQoGI90bhOCJM)
+
+## Requirements
+
+Python 3.10+
+
+## Installation
+
+```bash
+git clone https://github.com/skarj/python-project-49.git
+cd python-project-49
+make install # Install dependencies
+make build # Buld package
+make package-install # Install package locally
+```
+
+## Running
+```bash
+brain-calc # start "Calculator" game
+brain-even # start "Is Number Even?" game
+brain-gcd # start "The Greatest Common Divisor" game
+brain-prime # start "Is Number Prime?" game
+brain-progression # start "Progression" game
+```
