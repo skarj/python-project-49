@@ -7,20 +7,25 @@ Incorrect answers end the game and prompt you to play it again.
 
 ## Is Number Even?
 Determining an even number
+
 [![asciicast](https://asciinema.org/a/Znv16wwFfWrYKcLlxOCrge1KY.svg)](https://asciinema.org/a/Znv16wwFfWrYKcLlxOCrge1KY)
 
 ## Calculator
 Arithmetic expressions that need to be calculated
+
 [![asciicast](https://asciinema.org/a/G8Drzh1PcK29lCqrG6kXiwfNP.svg)](https://asciinema.org/a/G8Drzh1PcK29lCqrG6kXiwfNP)
 
 ## The Greatest Common Divisor
 Determining the greatest common divisor
+
 [![asciicast](https://asciinema.org/a/1DTBJo9ICKCI5MCLHiLBww4oo.svg)](https://asciinema.org/a/1DTBJo9ICKCI5MCLHiLBww4oo)
 
 ## Progression
 Finding missing numbers in a sequence of numbers
+
 [![asciicast](https://asciinema.org/a/tsBWKQsGgOI2rxKZjcd7wZUx6.svg)](https://asciinema.org/a/tsBWKQsGgOI2rxKZjcd7wZUx6)
 
 ## Is Number Prime?
 Determining a prime number
+
 [![asciicast](https://asciinema.org/a/MsT0v41v9fo1CQoGI90bhOCJM.svg)](https://asciinema.org/a/MsT0v41v9fo1CQoGI90bhOCJM)
