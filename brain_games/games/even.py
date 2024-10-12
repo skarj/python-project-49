@@ -1,4 +1,4 @@
-from ..engine.game import game
+from ..engine.game import start_game
 from random import randint
 
 
@@ -15,4 +15,4 @@ def get_question():
 
 def play():
     title = 'Answer "yes" if the number is even, otherwise answer "no".'
-    game(get_question, title)
+    start_game(get_question, title)

@@ -1,4 +1,4 @@
-from ..engine.game import game
+from ..engine.game import start_game
 from random import randint
 from math import gcd
 
@@ -20,4 +20,4 @@ def get_question():
 
 def play():
     title = 'Find the greatest common divisor of given numbers.'
-    game(get_question, title)
+    start_game(get_question, title)

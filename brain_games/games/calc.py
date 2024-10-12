@@ -1,4 +1,4 @@
-from ..engine.game import game
+from ..engine.game import start_game
 from random import randint, choice
 
 
@@ -20,4 +20,4 @@ def get_question():
 
 def play():
     title = 'What is the result of the expression?'
-    game(get_question, title)
+    start_game(get_question, title)

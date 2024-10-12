@@ -1,4 +1,4 @@
-from ..engine.game import game
+from ..engine.game import start_game
 from random import randint
 
 
@@ -17,4 +17,4 @@ def get_question():
 
 def play():
     title = "What number is missing in the progression?"
-    game(get_question, title)
+    start_game(get_question, title)

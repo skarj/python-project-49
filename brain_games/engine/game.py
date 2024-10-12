@@ -38,7 +38,7 @@ def is_answer_correct(answer, correct):
         return False
 
 
-def game(question, title: str):
+def start_game(question, title: str):
     '''
     Main game function
     '''
