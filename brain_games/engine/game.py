@@ -44,7 +44,6 @@ def start_game(get_question, title):
     player_name = greet()
     print(title)
 
-    game_failed = False
     for _ in range(ATTEMPTS):
         qestion_text, correct_answer = get_question()
         player_answer = ask_question(qestion_text)
@@ -55,8 +54,6 @@ def start_game(get_question, title):
             print(f"'{player_answer}' is wrong answer ;(. "
                   f"Correct answer was '{correct_answer}'."
                   f"\nLet's try again, {player_name}!")
-            failed = True
             return
 
-    if not game_failed:
-        print(f'Congratulations, {player_name}!')
+    print(f'Congratulations, {player_name}!')
