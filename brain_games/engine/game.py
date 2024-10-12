@@ -3,10 +3,10 @@ from sys import exit
 
 
 def greeting():
-    """
+    '''
     Asks user for the name and says hello
-    """
-    print("Welcome to the Brain Games!")
+    '''
+    print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
 
@@ -14,9 +14,9 @@ def greeting():
 
 
 def ask_question(question: str):
-    """
+    '''
     Prints the question and asks for the answer
-    """
+    '''
     print(f'Question: {question}')
     answer = prompt.string('Your answer: ')
 
@@ -24,12 +24,12 @@ def ask_question(question: str):
 
 
 def is_answer_correct(answer, correct):
-    """
+    '''
     Compares the user's answer with the correct answer
     and shows the result
-    """
+    '''
     if str(answer) == str(correct):
-        print("Correct!")
+        print('Correct!')
         return True
     else:
         print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
@@ -37,9 +37,9 @@ def is_answer_correct(answer, correct):
 
 
 def game(question, title: str):
-    """
+    '''
     Main game function
-    """
+    '''
     name = greeting()
     print(title)
 
@@ -52,4 +52,4 @@ def game(question, title: str):
             exit(0)
         attempt += 1
 
-    print(f"Congratulations, {name}!")
+    print(f'Congratulations, {name}!')

@@ -6,9 +6,9 @@ def get_question():
     number = randint(1, 100)
 
     if number % 2 == 0:
-        answer = "yes"
+        answer = 'yes'
     else:
-        answer = "no"
+        answer = 'no'
 
     return number, answer
 

@@ -9,7 +9,7 @@ def get_question():
 
     sequence = [str(i) for i in range(start, start + step * 10, step)]
     answer = sequence[index]
-    sequence[index] = ".."
+    sequence[index] = '..'
     question = ' '.join(sequence)
 
     return question, answer

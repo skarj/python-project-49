@@ -12,12 +12,12 @@ def get_question():
         number1 = randint(1, 100)
         number2 = randint(1, 100)
 
-    question = f"{number1} {number2}"
+    question = f'{number1} {number2}'
     answer = gcd(number1, number2)
 
     return question, answer
 
 
 def play():
-    title = "Find the greatest common divisor of given numbers."
+    title = 'Find the greatest common divisor of given numbers.'
     game(get_question, title)

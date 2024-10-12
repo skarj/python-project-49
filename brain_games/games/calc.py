@@ -7,10 +7,10 @@ def get_question():
     number2 = randint(1, 10)
     action = choice(['+', '-', '*'])
 
-    question = f"{number1} {action} {number2}"
-    if action == "+":
+    question = f'{number1} {action} {number2}'
+    if action == '+':
         answer = number1 + number2
-    elif action == "-":
+    elif action == '-':
         answer = number1 - number2
     else:
         answer = number1 * number2
