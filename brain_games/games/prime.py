@@ -17,11 +17,7 @@ def is_number_prime(number):
 
 def get_question():
     number = randint(1, 100)
-
-    if is_number_prime(number):
-        answer = 'yes'
-    else:
-        answer = 'no'
+    answer = 'yes' if is_number_prime(number) else "no"
 
     return number, answer
 
