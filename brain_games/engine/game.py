@@ -1,5 +1,4 @@
 import prompt
-from sys import exit
 
 ATTEMPTS = 3
 
@@ -38,18 +37,26 @@ def is_answer_correct(answer, correct):
         return False
 
 
-def start_game(question, title):
+def start_game(get_question, title):
     '''
     Main game function
     '''
     name = greet()
     print(title)
 
+    failed = False
     for _ in range(ATTEMPTS):
-        qestion_text, qestion_result = question()
-        answer = ask_question(qestion_text)
-        if not is_answer_correct(answer, qestion_result):
-            print(f"Let's try again, {name}!")
-            exit(0)
+        qestion_text, correct_answer = get_question()
+        player_answer = ask_question(qestion_text)
 
-    print(f'Congratulations, {name}!')
+        if str(player_answer) == str(correct_answer):
+            print('Correct!')
+        else:
+            print(f"'{player_answer}' is wrong answer ;(. "
+                  f"Correct answer was '{correct_answer}'."
+                  f"\nLet's try again, {name}!")
+            failed = True
+            return
+
+    if not failed:
+        print(f'Congratulations, {name}!')
