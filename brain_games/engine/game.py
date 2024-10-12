@@ -3,7 +3,8 @@ from sys import exit
 
 ATTEMPTS = 3
 
-def greeting():
+
+def greet():
     '''
     Asks user for the name and says hello
     '''
@@ -41,7 +42,7 @@ def game(question, title: str):
     '''
     Main game function
     '''
-    name = greeting()
+    name = greet()
     print(title)
 
     for _ in range(ATTEMPTS):

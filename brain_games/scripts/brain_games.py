@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 
-from ..engine.game import greeting
+from ..engine.game import greet
 
 
 def main():
-    greeting()
+    greet()
 
 
 if __name__ == '__main__':
