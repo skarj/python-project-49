@@ -15,7 +15,7 @@ def greet():
     return name
 
 
-def ask_question(question: str):
+def ask_question(question):
     '''
     Prints the question and asks for the answer
     '''
@@ -38,7 +38,7 @@ def is_answer_correct(answer, correct):
         return False
 
 
-def start_game(question, title: str):
+def start_game(question, title):
     '''
     Main game function
     '''

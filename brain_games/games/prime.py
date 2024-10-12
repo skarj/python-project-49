@@ -2,7 +2,7 @@ from ..engine.game import start_game
 from random import randint
 
 
-def is_number_prime(number: int):
+def is_number_prime(number):
     if number == 1:
         return False
 
