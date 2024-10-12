@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from ..engine.game import greet
+from brain_games.engine.game import greet
 
 
 def main():

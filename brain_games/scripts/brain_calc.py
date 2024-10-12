@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from ..games.calc import play
+from brain_games.games.calc import play
 
 
 def main():
