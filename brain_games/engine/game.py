@@ -1,6 +1,7 @@
 import prompt
 from sys import exit
 
+ATTEMPTS = 3
 
 def greeting():
     '''
@@ -44,7 +45,7 @@ def game(question, title: str):
     print(title)
 
     attempt = 0
-    while attempt < 3:
+    while attempt < ATTEMPTS:
         qes_text, qes_result = question()
         answer = ask_question(qes_text)
         if not is_answer_correct(answer, qes_result):
