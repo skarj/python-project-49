@@ -45,9 +45,9 @@ def game(question, title: str):
     print(title)
 
     for _ in range(ATTEMPTS):
-        qes_text, qes_result = question()
-        answer = ask_question(qes_text)
-        if not is_answer_correct(answer, qes_result):
+        qestion_text, qestion_result = question()
+        answer = ask_question(qestion_text)
+        if not is_answer_correct(answer, qestion_result):
             print(f"Let's try again, {name}!")
             exit(0)
 
