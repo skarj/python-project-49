@@ -44,13 +44,11 @@ def game(question, title: str):
     name = greeting()
     print(title)
 
-    attempt = 0
-    while attempt < ATTEMPTS:
+    for _ in range(ATTEMPTS):
         qes_text, qes_result = question()
         answer = ask_question(qes_text)
         if not is_answer_correct(answer, qes_result):
             print(f"Let's try again, {name}!")
             exit(0)
-        attempt += 1
 
     print(f'Congratulations, {name}!')
