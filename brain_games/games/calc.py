@@ -4,7 +4,7 @@ from random import randint, choice
 
 def get_question():
     number1 = randint(1, 50)
-    number2 = randint(1, 10)
+    number2 = randint(1, 50)
     action = choice(['+', '-', '*'])
 
     question = f'{number1} {action} {number2}'
