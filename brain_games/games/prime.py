@@ -1,18 +1,22 @@
 from brain_games.engine.game import start_game
 from random import randint
+from math import sqrt
 
 
 def is_number_prime(number):
-    if number == 1:
-        return False
+    prime_flag = 0
 
-    i = 2
-    while i * i <= number:
-        if number % i == 0:
+    if number > 1:
+        for i in range(2, int(sqrt(number)) + 1):
+            if number % i == 0:
+                prime_flag = 1
+                break
+        if prime_flag == 0:
+            return True
+        else:
             return False
-        i += 1
-
-    return True
+    else:
+        return False
 
 
 def get_question():
