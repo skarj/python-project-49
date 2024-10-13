@@ -18,6 +18,7 @@ def get_question():
 
     # Ensure numbers have a common divisor greater than 1
     while get_gcd(number1, number2) == 1:
+        print(get_gcd(number1, number2))
         number1 = randint(1, 100)
         number2 = randint(1, 100)
 
