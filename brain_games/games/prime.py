@@ -1,4 +1,3 @@
-from brain_games.engine.game import start_game
 from random import randint
 from math import sqrt
 
@@ -19,13 +18,10 @@ def is_number_prime(number):
         return False
 
 
-def get_question():
+def game():
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
+
     number = randint(1, 100)
     answer = 'yes' if is_number_prime(number) else "no"
 
     return number, answer
-
-
-def play():
-    title = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    start_game(get_question, title)

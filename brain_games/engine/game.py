@@ -37,12 +37,11 @@ def is_answer_correct(answer, correct):
         return False
 
 
-def start_game(get_question, title):
+def start_game(get_question):
     '''
     Main game function
     '''
     player_name = greet()
-    print(title)
 
     for _ in range(ATTEMPTS):
         qestion_text, correct_answer = get_question()

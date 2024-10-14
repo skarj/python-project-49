@@ -1,9 +1,10 @@
-from brain_games.engine.game import start_game
 from random import randint, choice
 from operator import add, sub, mul
 
 
-def get_question():
+def game():
+    print('What is the result of the expression?')
+
     number1 = randint(1, 50)
     number2 = randint(1, 50)
 
@@ -18,8 +19,3 @@ def get_question():
     answer = action(number1, number2)
 
     return question, answer
-
-
-def play():
-    title = 'What is the result of the expression?'
-    start_game(get_question, title)
