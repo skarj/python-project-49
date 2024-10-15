@@ -31,14 +31,14 @@ def start_game(get_question_and_answer):
     player_name = greet()
 
     for _ in range(GAME_ROUNDS_COUNT):
-        question_text, correct_answer = get_question_and_answer()
-        player_answer = ask_question(question_text)
+        question, answer = get_question_and_answer()
+        player_answer = ask_question(question)
 
-        if str(player_answer) == str(correct_answer):
+        if str(player_answer) == str(answer):
             print('Correct!')
         else:
             print(f"'{player_answer}' is wrong answer ;(. "
-                  f"Correct answer was '{correct_answer}'."
+                  f"Correct answer was '{answer}'."
                   f"\nLet's try again, {player_name}!")
             return
 

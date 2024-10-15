@@ -12,6 +12,7 @@ def is_number_prime(number):
         if number % i == 0:
             prime_flag = 1
             break
+
     if prime_flag == 0:
         return True
     else:
