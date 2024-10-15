@@ -3,8 +3,6 @@ from operator import add, sub, mul
 
 
 def get_question_and_answer():
-    print('What is the result of the expression?')
-
     number1 = randint(1, 50)
     number2 = randint(1, 50)
 

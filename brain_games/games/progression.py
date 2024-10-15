@@ -2,8 +2,6 @@ from random import randint
 
 
 def get_question_and_answer():
-    print("What number is missing in the progression?")
-
     step = randint(1, 5)
     start = randint(1, 15)
     index = randint(0, 9)

@@ -5,6 +5,7 @@ from brain_games.games.progression import get_question_and_answer
 
 
 def main():
+    print("What number is missing in the progression?")
     start_game(get_question_and_answer)
 
 
