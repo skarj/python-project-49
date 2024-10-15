@@ -9,7 +9,7 @@ def get_question_and_answer():
     index = randint(0, 9)
 
     sequence = [str(i) for i in range(start, start + step * 10, step)]
-    answer = sequence[index]
+    answer = str(sequence[index])
     sequence[index] = '..'
     question = ' '.join(sequence)
 

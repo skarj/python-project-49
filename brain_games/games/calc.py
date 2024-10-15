@@ -16,6 +16,6 @@ def get_question_and_answer():
 
     operation, action = choice(list(operation_action.items()))
     question = f'{number1} {operation} {number2}'
-    answer = action(number1, number2)
+    answer = str(action(number1, number2))
 
     return question, answer
