@@ -1,6 +1,6 @@
 import prompt
 
-ATTEMPTS = 3
+GAME_ROUNDS_COUNT = 3
 
 
 def greet():
@@ -24,28 +24,15 @@ def ask_question(question):
     return answer
 
 
-def is_answer_correct(answer, correct):
-    '''
-    Compares the user's answer with the correct answer
-    and shows the result
-    '''
-    if str(answer) == str(correct):
-        print('Correct!')
-        return True
-    else:
-        print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
-        return False
-
-
 def start_game(game):
     '''
     Main game function
     '''
     player_name = greet()
 
-    for _ in range(ATTEMPTS):
-        qestion_text, correct_answer = game()
-        player_answer = ask_question(qestion_text)
+    for _ in range(GAME_ROUNDS_COUNT):
+        question_text, correct_answer = game()
+        player_answer = ask_question(question_text)
 
         if str(player_answer) == str(correct_answer):
             print('Correct!')
