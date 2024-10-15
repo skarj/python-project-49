@@ -11,7 +11,7 @@ def get_gcd(a, b):
     return a
 
 
-def game():
+def get_question_and_answer():
     print('Find the greatest common divisor of given numbers.')
 
     number1 = randint(1, 100)

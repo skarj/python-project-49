@@ -18,7 +18,7 @@ def is_number_prime(number):
         return False
 
 
-def game():
+def get_question_and_answer():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
     number = randint(1, 100)

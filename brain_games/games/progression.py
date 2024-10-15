@@ -1,7 +1,7 @@
 from random import randint
 
 
-def game():
+def get_question_and_answer():
     print("What number is missing in the progression?")
 
     step = randint(1, 5)

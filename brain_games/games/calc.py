@@ -2,7 +2,7 @@ from random import randint, choice
 from operator import add, sub, mul
 
 
-def game():
+def get_question_and_answer():
     print('What is the result of the expression?')
 
     number1 = randint(1, 50)
