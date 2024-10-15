@@ -22,6 +22,6 @@ def game():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
 
     number = randint(1, 100)
-    answer = 'yes' if is_number_prime(number) else "no"
+    answer = 'yes' if is_number_prime(number) else 'no'
 
     return number, answer
