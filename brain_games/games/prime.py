@@ -3,20 +3,14 @@ from math import sqrt
 
 
 def is_number_prime(number):
-    prime_flag = 0
-
     if number <= 1:
         return False
 
     for i in range(2, int(sqrt(number)) + 1):
         if number % i == 0:
-            prime_flag = 1
-            break
+            return False
 
-    if prime_flag == 0:
-        return True
-    else:
-        return False
+    return True
 
 
 def get_question_and_answer():
