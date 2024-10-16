@@ -1,5 +1,7 @@
 from random import randint
 
+START_MESSAGE = 'What number is missing in the progression?'
+
 
 def get_question_and_answer():
     step = randint(1, 5)

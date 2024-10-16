@@ -24,14 +24,15 @@ def ask_question(question):
     return answer
 
 
-def start_game(get_question_and_answer):
+def start_game(game):
     '''
     Main game function
     '''
     player_name = greet()
+    print(game.START_MESSAGE)
 
     for _ in range(GAME_ROUNDS_COUNT):
-        question, answer = get_question_and_answer()
+        question, answer = game.get_question_and_answer()
         player_answer = ask_question(question)
 
         if player_answer == str(answer):

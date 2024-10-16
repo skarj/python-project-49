@@ -1,6 +1,8 @@
 from random import randint, choice
 from operator import add, sub, mul
 
+START_MESSAGE = 'What is the result of the expression?'
+
 
 def get_question_and_answer():
     number1 = randint(1, 50)

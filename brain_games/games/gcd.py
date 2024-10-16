@@ -1,5 +1,7 @@
 from random import randint
 
+START_MESSAGE = 'Find the greatest common divisor of given numbers.'
+
 
 def get_gcd(a, b):
     '''
