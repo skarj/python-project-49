@@ -35,7 +35,7 @@ def start_game(game):
         question, answer = game.get_question_and_answer()
         player_answer = ask_question(question)
 
-        if player_answer == str(answer):
+        if player_answer == answer:
             print('Correct!')
         else:
             print(f"'{player_answer}' is wrong answer ;(. "
