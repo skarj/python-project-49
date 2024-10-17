@@ -1,7 +1,7 @@
 from random import randint
 
 DESCRIPTION = 'What number is missing in the progression?'
-PROGRESSION_LENGTH = 15
+PROGRESSION_LENGTH = 10
 
 def get_question_and_answer():
     step = randint(1, 5)
