@@ -29,7 +29,7 @@ def start_game(game):
     Main game function
     '''
     player_name = greet()
-    print(game.START_MESSAGE)
+    print(game.DESCRIPTION)
 
     for _ in range(GAME_ROUNDS_COUNT):
         question, answer = game.get_question_and_answer()
