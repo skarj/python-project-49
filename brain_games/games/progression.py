@@ -1,14 +1,14 @@
 from random import randint
 
 DESCRIPTION = 'What number is missing in the progression?'
-
+PROGRESSION_LENGTH = 15
 
 def get_question_and_answer():
     step = randint(1, 5)
     start = randint(1, 15)
-    index = randint(0, 9)
+    index = randint(0, PROGRESSION_LENGTH)
 
-    sequence = [str(i) for i in range(start, start + step * 10, step)]
+    sequence = [str(i) for i in range(start, start + step * PROGRESSION_LENGTH, step)]
     answer = sequence[index]
     sequence[index] = '..'
     question = ' '.join(sequence)
